@@ -1,80 +1,10 @@
-"DWI connectivity matrices: connectome can distinguish among individuals with high performence
-Mansour et al (2021) High-resolution connectomic fingerprints: Mapping neural identity and behavior. NeuroImage. 229
-Ciarrusta et al. (2022) The developing brain structural and functional connectome fingerprint. Dev Cogn Neurosci. 55",DWI connectivity matrices,"BOLD connectivity matrices: unique even at low resolution and stable across task/scanner/repository
-Finn et al. (2015) Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity. Nat Neurosci. 18 
-Byrge & Kennedy (2019). High-accuracy individual identification using a “thin slice” of the functional connectome. https://direct.mit.edu/netn/article/3/2/363/2226/High-accuracy-individual-identification-using-a 
-Amico & Goñi (2018). The quest for identifiability in human functional connectomes. Sci Rep. 29. 
-Van De Ville et al. (2021) When makes you unique: Temporality of the human brain fingerprint. Science Advances. 15. 
-Miranda-Dominguez et al. (2014) Connectotyping: Model Based Fingerprinting of the Functional Connectome. PLOS ONE. 9. 
-Ravindra et al (2021) Constructing Compact Signatures for Individual Fingerprinting of Brain Connectomes. Front Neurosci. 15. ",BOLD connectivity matrices,"PET connectivity matrices 
-- no evidence -",PET connectivity matrices ,"MEEG connectivity matrices: can distinguish among individuals
-Fraschini et al (2015). An EEG-Based Biometric System Using Eigenvector Centrality in Resting State Brain Networks. IEEE Signal Processing Letters., 22
-Kong et al (2019). EEG Fingerprints: Phase Synchronization of EEG Signals as Biomarker for Subject Identification. IEEE 7 
-Rocca et al. (2014) Human brain distinctiveness based on EEG spectral coherence connectivity. IEEE Trans Biomed 61",MEEG connectivity matrices ,"fNRIS connectivity matrices: sensor level can discriminate among individuals
-Rodrigues et al (2019) Identifying individuals using fNIRS-based cortical connectomes. Biomed Opt Express, 10 
-Ren et al (2022) Identifying Individuals by fNIRS-Based Brain Functional Network Fingerprints. Front Neurosci 16",fNRIS connectivity matrices ,"Connectivity maps (e.g. ICA)
-- no evidence -",Connectivity maps (e.g. ICA weights),"Metrics derived from connectivity matrices (connectedness, centrality, dwell time, etc)
-- no evidence -",Metrics derived from connectivity matrices,"Raw or preprocessed fNIRS data: dHB time courses over many sensors are unique to discriminate participants 
-Zhang Y, Li J. (2024) Identification of individuals using functional near-infrared spectroscopy based on a one-dimensional convolutional neural network. J Biophotonics. 17.",Raw or preprocessed fNIRS data,"Raw and Preprocessed electrophysiological data (EEG, MEG): contains unique features (also in the non-brain signals such as eye blinks, muscle activity), allowing discriminate among subjects
-Meng et al. 2024. Protecting Multiple Types of Privacy Simultaneously in EEG-based Brain-Computer Interfaces IEEE 20832088
-Da Silva Castanheira et al (2021). Brief segments of neurophysiological activity enable individual differentiation. Nat Commun. 12 
-Sareen et al. (2021) Exploring MEG brain fingerprints: Evaluation, pitfalls, and interpretations. NeuroImage, 15
-Wu et al (2022) Brainprints: identifying individuals from magnetoencephalograms. Commun Biol 22
-Liu et al (2024) Affective EEG-based cross-session person identification using hierarchical graph embedding. Cogn Neurodyn. 18 
-","Raw and Preprocessed electrophysiological data (EEG, MEG)","intra cranial EEG: Within subject same-session identification accuracy  is above 90%, and persist across sessions
-Belay & Katsigiannis (2025) Human Intracranial EEG Biometric Identification. 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society   ",intra cranial EEG,"Power spectra (EEG, iEEG, MEG): highly subject specific
-Stergiadis et al. (2022) A Personalized User Authentication System Based on EEG Signals. Sensors. 22
-Thomas & Vinod (2017) Toward EEG-Based Biometric Systems: The Great Potential of Brain-Wave-Based Biometrics. IEEE Systems, Man, and Cybernetics Magazine. 3
-Castanheira et al (2025) The lifespan evolution of individualized neurophysiological traits. Cell Reports, 23
-Jijomon & Vinod (2018). EEG-based Biometric Identification using Frequently Occurring Maximum Power Spectral Features. IEEE Applied Signal Processing Conference 8748581  
-Suppiah & Vinod (2018). Biometric identification using single channel EEG during relaxed resting state. IET Biometrics. 7 
-DelPozo-Banos et al (2015). EEG biometric identification: a thorough exploration of the time-frequency domain. J Neural Eng. 12 
-Demuru & Fraschini (2020). EEG fingerprinting: Subject-specific signature based on the aperiodic component of power spectrum. Computers in Biology and Medicine, 120
-Tatar (2023). Biometric identification system using EEG signals. Neural Comput & Applic. 35  ","Power spectra (EEG, iEEG, MEG)","Event related electrophysiological response (ERP-ERF): ERPs are highly reliable within subjects but moderately stable over time
-Gaspar  et al (2011). Reliability of ERP and single-trial analyses. Neuroimage. 15
-Cassidy et al (2012). Retest reliability of event-related potentials: Evidence from a variety of paradigms. Psychophysiology. 49
-Weinberg & Hajcak (2011). Longer term test-retest reliability of error-related brain activity. Psychophysiology. 48",Event related electrophysiological response (ERP-ERF),"Space-Time decompositions from temporal based imaging (EEG, MEG, fNIRS), for instance ICA maps and associated time courses
-- no evidence -","Space-Time decompositions from temporal based imaging (EEG, MEG, fNIRS), for instance ICA maps and associated time courses","Raw PET images: depending on the scanner and tracer, faces can be reconstructed
-Bou Hanna et al. (2024) Exploring de-anonymization risks in PET imaging: Insights from a comprehensive analysis of 853 patient scans. Sci Data. 28 
-Schwarz et al. (2022) Face recognition from research brain PET: An unexpected PET problem. NeuroImage, 258
-Selfridge et al (2023) Facial Anonymization and Privacy Concerns in Total-Body PET/CT. J Nucl Med. 64
+DWI connectivity matrices,DWI connectivity matrices,BOLD connectivity matrices,BOLD connectivity matrices,PET connectivity matrices ,PET connectivity matrices ,MEEG connectivity matrices ,MEEG connectivity matrices ,fNRIS connectivity matrices ,fNRIS connectivity matrices ,Connectivity maps (e.g. ICA weights),Connectivity maps (e.g. ICA weights),Metrics derived from connectivity matrices,Metrics derived from connectivity matrices,Raw or preprocessed fNIRS data,Raw or preprocessed fNIRS data,"Raw and Preprocessed electrophysiological data (EEG, MEG)","Raw and Preprocessed electrophysiological data (EEG, MEG)",intra cranial EEG,intra cranial EEG,"Power spectra (EEG, iEEG, MEG)","Power spectra (EEG, iEEG, MEG)",Event related electrophysiological response (ERP-ERF),Event related electrophysiological response (ERP-ERF),"Space-Time decompositions from temporal based imaging (EEG, MEG, fNIRS), for instance ICA maps and associated time courses","Space-Time decompositions from temporal based imaging (EEG, MEG, fNIRS), for instance ICA maps and associated time courses","Raw PET images
 ","Raw PET images
 ","PET parametric (e.g. SUV) and kinetic parameter maps (e.g.KI, BPnd)
-- no evidence -
 ","PET parametric (e.g. SUV) and kinetic parameter maps (e.g.KI, BPnd)
 ","Raw DWI: the face may be visible for high resolution data, but not been successfully demonstrated when tested
-Schwarz et al (2023) A face-off of MRI research sequences by their need for de-facing. NeuroImage 276",Raw DWI,"Derived DWI data (FA, MD, track profiles)
-- no evidence -","Derived DWI data (FA, MD, track profiles): some tracks  may have unique characteristics
-Wang et al (2023) Structural Fingerprinting of the Frontal Aslant Tract: Predicting Cognitive Control Capacity and Obsessive-Compulsive Symptoms. J Neurosci. 2023","Raw fMRI data: the face may be visible for high resolution data, but not been successfully demonstrated when tested
-Schwarz et al (2023) A face-off of MRI research sequences by their need for de-facing. NeuroImage 276",Raw fMRI data,"Raw ASL data
-- no evidence -",Raw ASL data,"Perfusion (CE) and Flow (TOF) imaging
-- no evidence -",Perfusion (CE) and Flow (TOF) imaging,"Spectroscopy (ROI or multivoxels)
-- no evidence -",Spectroscopy (ROI or multivoxels),"Pre-process dynamic data (fMRI, ASL) in subject space
-- no evidence -","Pre-process dynamic data (fMRI, ASL) in subject space","Spatially normalized dynamic data (fMRI, ASL): Brain images retain their main distinguishing information and features
-Chen et al (2013) Confirming the Diversity of the Brain after Normalization: An Approach Based on Identity Authentication. PLOS ONE, 8","Space-Time decompositions from dynamic imaging (fMRI, ASL, fNIRS, PET), for instance ICA maps and associated time courses: ability to distinguish individuals
-Wang et al (2017) A Novel Feature-Map Based ICA Model for Identifying the Individual, Intra/Inter-Group Brain Networks across Multiple fMRI Datasets. Front Neurosci. 2017
-Wang et al. (2025) A dynamic spatiotemporal representation framework for deciphering personal brain function. NeuroImage. 319
-Xie et al.(2018) Whole-brain connectivity dynamics reflect both task-specific and individual-specific modulation: A multitask study. Neuroimage. 180","Space-Time decompositions from dynamic tomographic imaging (fMRI, fNIRS, PET), for instance ICA maps and associated time courses","Task-based activation maps (% signal change, t-values, etc)
-- no evidence -","Task-based activation maps (% signal change, t-values, etc)","Raw MRI/CT data: can be matched to photographs with regular face recognition software and linking with web search
-
-Schwarz et al. Identification of Anonymous MRI Research Participants with Face-Recognition Software. New England Journal of Medicine. 2019
-Steeg et al. Re-identification of anonymised MRI head images with publicly available software: investigation of the current risk to patient privacy. eClinicalMedicine. 2024",Raw MRI/CT data,"Face removed MRI/CT data. Depends on whether ears and teeth are present - reverse reconstruction can be done 
-
-Abramian D, Eklund A. Refacing: Reconstructing Anonymized Facial Features Using GANS. ISBI 2019 
-Xiao Y, et al. Refacing Defaced MRI with PixelCNN. IJCNN 2022",Face removed MRI/CT data. ,"Skull stripped MRI: cross-linkage between MRI databases can retrieve individuals based on their brain pattern
-
-Puglisi et al. DeepBrainPrint: A Novel Contrastive Framework for Brain MRI Re-Identification. PMLR 2024 
-Guillon et al. Identification of rare cortical folding patterns using unsupervised deep learning. Imaging Neuroscience. 2024 ",Skull stripped MRI,"Tissue maps (scalp, skull, GM, WM, CSF), VBM, SDM can distinguish among individuals
-
-Takao e la (2015). Brain morphology is individual-specific information. Magnetic Resonance Imaging. 33","Tissue maps (scalp, skull, GM, WM, CSF), VBM, SDM","Morphometric maps (thickness, curvature, etc):   it is unique, and the re-identification rate is very high
-
-Duan et al. Cortical Foldingprint for infant identification. Proc IEEE Int Symp Biomed Imaging. 2019 
-Wachinger et al. BrainPrint: a discriminative characterization of brain morphology. Neuroimage. 2015 ",Morphometric maps ,"Morphometric models (e.g. cortical mesh, Boundary Element Models for EEG biophysical models, etc ): depends if the face is included
-Sareen (2021). Exploring MEG brain fingerprints: Evaluation, pitfalls, and interpretations. NeuroImage. 2021","Morphometric models (e.g. cortical mesh, Boundary Element Models for EEG biophysical models, etc ) ","Synthetic structural MRI and CT for the same imaging type (e.g. learn from T1w make T1w). A generative model can memorize images and thus reproduce them
-Usman et al. Beware of diffusion models for synthesizing medical images—a comparison with GANs in terms of memorizing brain MRI and chest x-ray images. Mach Learn: Sci Technol. 2025 
-Dar  et al. Unconditional latent diffusion models memorize patient imaging data. Nat Biomed Eng. 2025",Synthetic structural MRI and CT - same image type,"Synthetic structural MRI and CT for different imaging type (.e.g learn from MRI, make CT, learn from T1w make FLAIR T2w)
-- currently no direct evidence -",Synthetic structural MRI and CT for different imaging type,"Table of morphometric (volume, thickness, etc) or qMRI (T1 time) information (ROI based). Brains have unique patterns, such as one can discriminate individuals from patterns in ROI
-Valizadeh et al. Identification of individual subjects on the basis of their brain anatomical features. Sci Rep. 2018 ","Table of morphometric (volume, thickness, etc) or qMRI (T1 time) information (ROI based)"
+Schwarz et al (2023) A face-off of MRI research sequences by their need for de-facing. NeuroImage 276",Raw DWI,"Derived DWI data (FA, MD, track profiles)","Derived DWI data (FA, MD, track profiles)",Raw fMRI data,Raw fMRI data,Raw ASL data,Raw ASL data,Perfusion (CE) and Flow (TOF) imaging,Perfusion (CE) and Flow (TOF) imaging,Spectroscopy (ROI or multivoxels),Spectroscopy (ROI or multivoxels),"Pre-process dynamic data (fMRI, ASL) in subject space","Pre-process dynamic data (fMRI, ASL) in subject space","Spatially normalized dynamic data (fMRI, ASL): Brain images retain their main distinguishing information and features
+Chen et al (2013) Confirming the Diversity of the Brain after Normalization: An Approach Based on Identity Authentication. PLOS ONE, 8","Space-Time decompositions from dynamic tomographic imaging (fMRI, fNIRS, PET), for instance ICA maps and associated time courses","Space-Time decompositions from dynamic tomographic imaging (fMRI, fNIRS, PET), for instance ICA maps and associated time courses","Task-based activation maps (% signal change, t-values, etc)","Task-based activation maps (% signal change, t-values, etc)",Raw MRI/CT data,Raw MRI/CT data,Face removed MRI/CT data. ,Face removed MRI/CT data. ,Skull stripped MRI,Skull stripped MRI,"Tissue maps (scalp, skull, GM, WM, CSF), VBM, SDM","Tissue maps (scalp, skull, GM, WM, CSF), VBM, SDM",Morphometric maps ,Morphometric maps ,"Morphometric models (e.g. cortical mesh, Boundary Element Models for EEG biophysical models, etc ) ","Morphometric models (e.g. cortical mesh, Boundary Element Models for EEG biophysical models, etc ) ",Synthetic structural MRI and CT - same image type,Synthetic structural MRI and CT - same image type,Synthetic structural MRI and CT for different imaging type,Synthetic structural MRI and CT for different imaging type,"Table of morphometric (volume, thickness, etc) or qMRI (T1 time) information (ROI based)","Table of morphometric (volume, thickness, etc) or qMRI (T1 time) information (ROI based)"
 3,5,4,5,2,3,3,5,3,4,2,4,2,3,3,4,4,5,3,4,4,5,2,3,3,4,5,4,2,3,3,4,2,3,4,5,2,3,2,3,2,3,3,4,3,3,5,2,3,5,5,3,4,4,5,3,5,4,5,3,4,3,3,2,2,3,4
 4,4,4,4,2,2,4,4,3,3,3,3,3,3,2,2,2,2,3,3,4,4,3,3,3,3,2,2,2,2,1,1,2,2,2,2,1,1,1,1,1,1,3,3,3,3,3,3,3,2,2,1,1,2,2,2,2,4,4,4,4,3,3,3,3,2,2
 1,5,1,5,2,4,2,4,2,4,2,4,1,3,1,5,1,5,2,5,1,5,1,4,1,4,1,4,1,4,1,5,1,5,1,5,1,5,2,5,1,5,1,5,1,1,5,1,5,4,5,2,5,2,5,1,5,1,5,1,5,1,3,1,3,1,4
