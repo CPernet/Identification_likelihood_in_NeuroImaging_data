@@ -1,4 +1,4 @@
-# Identification_-likelihood_in_NeuroImaging_data  
+# Identification likelihood in NeuroImaging  
 Data and analysis supporting expert consensus rating on identification  likelihood in NeuroImaging data.  
 In this project, experts independently listed data types and evidence of re-identification risk. From those lists, tables of data types were built and used to make a survey. The survey data are analysed here.
 
